@@ -1,0 +1,8 @@
+summary {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+summary p {
+    color: dimgray;
+}
