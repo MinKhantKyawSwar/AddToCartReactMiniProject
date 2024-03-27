@@ -1,11 +1,12 @@
 import Main from "./layout/Main";
+import ItemContextProvider from "./store/itemContext";
 
 function App() {
   return (
-    <div className="App">
+    <ItemContextProvider>
       <Main/>
-    </div>
+    </ItemContextProvider>
   );
 }
-
+// 35 mins
 export default App;

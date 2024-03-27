@@ -42,3 +42,25 @@ body{
     padding : 20px 20px;
     border-radius: 18px;
 }
+
+.card-quantity{
+    padding: 4px 6px;
+    background-color: orange;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+}
+
+.quantity-btn {
+    border: 1px solid orange;
+    background-color: transparent;
+    color: orange;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.m-ctr{
+    margin-right: 10px;
+}

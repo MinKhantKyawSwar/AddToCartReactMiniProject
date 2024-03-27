@@ -19,3 +19,7 @@ nav h1 {
     border-radius: 8px;
     font-size: 14px;
 }
+
+.Cart-button:hover{
+    cursor: pointer;
+}

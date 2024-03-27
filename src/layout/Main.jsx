@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
 import Body from './Body'
 import Backdrop from '../components/Backdrop'
 
 const Main = () => {
+  const [showCart, setShowCart] = useState(false);
+
+  const showCartHandler = () => {
+    setShowCart(true)
+  }
+
+  const hideCartHandler = () => {
+    setShowCart(false)
+  }
   return (
    <>
-        <Header/>
+        <Header showCartHandler={showCartHandler}/>
         <Body/>
-        <Backdrop /> 
+        <Backdrop showCart={showCart} hideCartHandler= {hideCartHandler}/> 
    </>
 
   )

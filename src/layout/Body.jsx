@@ -31,7 +31,7 @@ const phones = [
         price: 450,
         name : "Apple Watch",
         description : "The best smartwatch you can own"
-    }
+    },
 ];
 
 const Body = () => {

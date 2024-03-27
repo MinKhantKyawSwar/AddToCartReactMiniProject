@@ -2,11 +2,20 @@ import React from 'react'
 import "./css files/Backdrop.css"
 import Cart from './Cart'
 
-const Backdrop = () => {
+const Backdrop = (props) => {
   return (
-    <section className='backdrop'>
-      <Cart />
-    </section>
+    <>
+    {
+      props.showCart && (
+        <>
+        <section className='backdrop' onClick={props.hideCartHandler} />
+          <Cart hideCartHandler={props.hideCartHandler}/>
+        </>
+      )
+    }
+      
+    </>
+    
   )
 }
 

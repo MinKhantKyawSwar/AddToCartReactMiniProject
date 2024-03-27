@@ -15,8 +15,11 @@
     background-color: #ffffff;
     padding: 20px 60px;
     width: 80%;
-    position: relative;
+    position: fixed;
+    top: 50%;
+    left: 50%;
     z-index: 1000;
+    transform: translate(-50%, -50%);
     border-radius: 8px;
 }
 
@@ -62,4 +65,13 @@
     background-color: red;
     color: white;
     border: none;
+}
+
+.no-item {
+    text-align: center;
+}
+
+.overflow-ctr {
+    height: 400px;
+    overflow-y: scroll;
 }
