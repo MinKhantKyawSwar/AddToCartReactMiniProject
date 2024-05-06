@@ -4,9 +4,8 @@ import ItemContextProvider from "./store/itemContext";
 function App() {
   return (
     <ItemContextProvider>
-      <Main/>
+      <Main />
     </ItemContextProvider>
   );
 }
-// 35 mins
 export default App;

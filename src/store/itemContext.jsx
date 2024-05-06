@@ -41,6 +41,7 @@ const itemReducer = (state, action) => {
 
         const updatedTotalAmount =  
             state.totalAmount - existItem.price;
+            
         let updatedItems;
         if(existItem.amount === 1){
             updatedItems = state.items.filter(item => item.id !== action.id)
