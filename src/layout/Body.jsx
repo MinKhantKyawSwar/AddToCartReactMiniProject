@@ -38,8 +38,8 @@ const Body = () => {
   return (
     <section className='body'>
         {
-            phones.map((phone) => (
-                <Card key={phone.id} phone={phone}/>
+            phones.map((phone, index) => (
+                <Card key={index} phone={phone}/>
             ))
         }
     </section>
